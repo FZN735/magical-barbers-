@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magical Barbers - Mobile Barber in Blackburn</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .corner-gallery {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .corner-img {
+      width: 50%;
+      height: 50%;
+      object-fit: cover;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+      z-index: 1;
+    }
+    .hero p {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      z-index: 1;
+    }
+    .btn {
+      padding: 15px 30px;
+      background-color: #e91e63;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      z-index: 1;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .contact {
+      background-color: #1a1a1a;
+      margin-top: 30px;
+      border-radius: 12px;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    table {
+      width: 80%;
+      margin: 30px auto 0;
+      border-collapse: collapse;
+      background-color: #222;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 15px 20px;
+      border-bottom: 1px solid #333;
+      font-size: 1.1rem;
+    }
+    th {
+      background-color: #e91e63;
+      color: white;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="corner-gallery">
+      <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/drafttf/refs/heads/main/IMG_7370%5B1%5D.JPG" alt="Cut 1">
+      <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/drafttf/refs/heads/main/IMG_7372%5B2%5D.JPG" alt="Cut 2">
+      <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/drafttf/refs/heads/main/IMG_7373%5B2%5D.JPG" alt="Cut 3">
+      <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/fff/refs/heads/main/IMG_7371%5B2%5D.JPG" alt="Cut 5">
+    </div>
+    <h1>MAGICAL BARBERS</h1>
+    <p>🔥 Mobile Barber - Serving Blackburn</p>
+    <a class="btn" href="#contact">Call to Book Now</a>
+  </div>
+
+  <section class="services">
+    <h2>Our Services & Prices</h2>
+    <table>
+      <tr>
+        <th>Service</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Skin Fade</td>
+        <td>£15</td>
+      </tr>
+      <tr>
+        <td>Mullet</td>
+        <td>£15</td>
+      </tr>
+      <tr>
+        <td>Burst Fade</td>
+        <td>£15</td>
+      </tr>
+      <tr>
+        <td>Taper Fade</td>
+        <td>£15</td>
+      </tr>
+      <tr>
+        <td>Beard + Haircut</td>
+        <td>£16</td>
+      </tr>
+      <tr>
+        <td>Home Haircuts</td>
+        <td>£20</td>
+      </tr>
+      <tr>
+        <td>Facial (Add-on)</td>
+        <td>+£5</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Book Your Cut</h2>
+    <p>📞 Call us now to book your appointment in BB1.</p>
+    <p><strong>Phone:</strong> <a class="btn" href="tel:+447481938805">07481938805</a></p>
+    <p><strong>Email:</strong> <a class="btn" href="mailto:raufmubashir45@gmail.com">raufmubashir45@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MAGICAL BARBERS - Mobile Cuts in BB1</p>
+  </footer>
+
+</body>
+</html>
