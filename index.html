@@ -101,11 +101,23 @@
       font-size: 0.9rem;
       color: #aaa;
     }
+  @media only screen and (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <div class="hero">
+  <div class="hero" style="padding-top: 20vh; box-sizing: border-box;">
     
     <div class="corner-gallery">
       <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/drafttf/refs/heads/main/IMG_7373%5B2%5D.JPG" alt="Cut 3">
@@ -113,9 +125,9 @@
       <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/drafttf/refs/heads/main/IMG_7370%5B1%5D.JPG" alt="Cut 1">
       <img class="corner-img" src="https://raw.githubusercontent.com/FZN735/drafttf/refs/heads/main/IMG_7372%5B2%5D.JPG" alt="Cut 2">
     </div>
-    <h1 style="font-family: 'Brush Script MT', cursive; font-size: 3rem; letter-spacing: 2px; color: purple; margin-bottom: 5px; margin-top: -260px;">Magical Barbers</h1>
-    <p style="color: black; background-color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: -30px;">🔥 Mobile Barber - Serving Blackburn</p>
-    <a class="btn" href="#contact" style="margin-top: -30px;">Call to Book Now</a>
+    <h1 style="font-family: 'Brush Script MT', cursive; font-size: 2.5rem; letter-spacing: 2px; color: purple; margin: 0;">Magical Barbers</h1>
+    <p style="color: black; background-color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 10px;">🔥 Mobile Barber - Serving Blackburn</p>
+    <a class="btn" href="#contact" style="margin-top: 20px;">Call to Book Now</a>
   </div>
 
   <section class="services">
